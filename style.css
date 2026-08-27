@@ -1,0 +1,363 @@
+/* =========================
+   CONFIGURACIÓN GENERAL
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #171c29;
+    background-color: white;
+}
+
+
+/* =========================
+   SECCIÓN SUPERIOR
+========================= */
+
+.servicios {
+    width: 100%;
+    background-color: white;
+    padding: 45px 0 52px;
+}
+
+.servicios-contenido {
+    width: 90%;
+    max-width: 1080px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 42% 58%;
+
+    align-items: start;
+}
+
+
+/* =========================
+   BLOQUE INTRODUCTORIO
+========================= */
+
+.introduccion h1 {
+    margin: 0;
+
+    font-size: 32px;
+    line-height: 1.05;
+    font-weight: 700;
+}
+
+.linea-naranja {
+    width: 42px;
+    height: 4px;
+
+    margin-top: 22px;
+    margin-bottom: 22px;
+
+    background-color: #ef9500;
+}
+
+.introduccion p {
+    max-width: 340px;
+
+    margin-top: 0;
+    margin-bottom: 24px;
+
+    font-size: 12px;
+    line-height: 1.55;
+}
+
+
+/* =========================
+   BOTONES
+========================= */
+
+.boton {
+    display: inline-block;
+
+    padding: 9px 13px;
+
+    background-color: #ef9500;
+    color: #111;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+}
+
+
+/* =========================
+   TARJETAS
+========================= */
+
+.tarjetas {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 14px;
+
+    align-items: start;
+}
+
+.tarjeta {
+    height: 140px;
+
+    padding: 22px 28px;
+
+    background-color: #f4f4f4;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tarjeta:nth-child(4) {
+    height: 165px;
+}
+
+
+/* =========================
+   ETIQUETAS
+========================= */
+
+.etiqueta {
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+
+    font-size: 12px;
+    color: #343b4d;
+}
+
+
+/* =========================
+   CUADRADOS AZULES
+========================= */
+
+.cuadrado {
+    width: 7px;
+    height: 7px;
+
+    display: inline-block;
+
+    flex-shrink: 0;
+
+    background-color: #243f7a;
+}
+
+
+/* =========================
+   TÍTULOS DE TARJETAS
+========================= */
+
+.tarjeta h2 {
+    width: 100%;
+
+    margin-top: 10px;
+    margin-bottom: 0;
+
+    font-size: 21px;
+    line-height: 1.08;
+    font-weight: 700;
+}
+
+
+/* =========================
+   SECCIÓN INFERIOR
+========================= */
+
+.deportes {
+    width: 100%;
+
+    padding: 58px 0 56px;
+
+    background-color: #f4f4f4;
+}
+
+.deportes-contenido {
+    width: 90%;
+    max-width: 1080px;
+    height: 470px;
+
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 42% 58%;
+
+    align-items: stretch;
+}
+
+
+/* =========================
+   BLOQUE AZUL
+========================= */
+
+.deportes-texto {
+    height: 100%;
+
+    padding: 46px 42px 40px;
+
+    background-color: #132a4b;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+}
+
+
+/* =========================
+   SUBTÍTULO
+========================= */
+
+.subtitulo {
+    display: flex;
+    align-items: center;
+
+    gap: 6px;
+
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 700;
+
+    color: #f1f3f6;
+}
+
+
+/* =========================
+   LÍNEA LARGA
+========================= */
+
+.separador {
+    width: 100%;
+    height: 1px;
+
+    margin-top: 14px;
+    margin-bottom: 30px;
+
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+
+/* =========================
+   TÍTULO DEPORTES
+========================= */
+
+.deportes-texto h2 {
+    margin: 0;
+
+    font-size: 31px;
+    line-height: 1.08;
+    font-weight: 600;
+}
+
+
+/* =========================
+   LÍNEA CORTA
+========================= */
+
+.linea-clara {
+    width: 38px;
+    height: 3px;
+
+    margin-top: 22px;
+    margin-bottom: 28px;
+
+    background-color: #8da5c7;
+}
+
+
+/* =========================
+   PÁRRAFO DEPORTES
+========================= */
+
+.deportes-texto p {
+    max-width: 332px;
+
+    margin: 0 0 30px 0;
+
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: #e6eaf0;
+}
+
+
+/* =========================
+   BOTÓN DEL BLOQUE AZUL
+========================= */
+
+.deportes-texto .boton {
+    width: auto;
+
+    padding: 8px 11px;
+
+    align-self: flex-start;
+
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+
+/* =========================
+   IMAGEN
+========================= */
+
+.deportes-imagen {
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+}
+
+.deportes-imagen img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 800px) {
+
+    .servicios-contenido {
+        grid-template-columns: 1fr;
+    }
+
+    .tarjetas {
+        grid-template-columns: 1fr;
+    }
+
+    .deportes-contenido {
+        height: auto;
+
+        grid-template-columns: 1fr;
+    }
+
+    .deportes-texto {
+        height: auto;
+    }
+
+    .deportes-imagen {
+        height: 400px;
+    }
+
+}
